@@ -1,0 +1,3 @@
+#!/bin/bash
+
+../django_virtualenv/bin/python manage.py runserver

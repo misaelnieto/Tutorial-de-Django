@@ -1,0 +1,324 @@
+[Tue Aug 30 21:48:44 2011] [notice] SELinux policy enabled; httpd running as context system_u:system_r:httpd_t:s0
+[Tue Aug 30 21:48:44 2011] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Tue Aug 30 21:48:44 2011] [notice] SSL FIPS mode disabled
+[Tue Aug 30 21:48:44 2011] [notice] Digest: generating secret for digest authentication ...
+[Tue Aug 30 21:48:44 2011] [notice] Digest: done
+[Tue Aug 30 21:48:45 2011] [notice] mod_python: Creating 4 session mutexes based on 256 max processes and 0 max threads.
+[Tue Aug 30 21:48:45 2011] [notice] mod_python: using mutex_directory /tmp 
+[Tue Aug 30 21:48:45 2011] [notice] SSL FIPS mode disabled
+[Tue Aug 30 21:48:45 2011] [notice] Apache/2.2.19 (Unix) DAV/2 PHP/5.3.6 mod_python/3.3.1 Python/2.7.1 mod_ssl/2.2.19 OpenSSL/1.0.0d-fips mod_perl/2.0.4 Perl/v5.12.4 configured -- resuming normal operations
+[Tue Aug 30 21:48:55 2011] [error] [client 127.0.0.1] Directory index forbidden by Options directive: /var/www/html/
+[Tue Aug 30 21:48:56 2011] [error] [client 127.0.0.1] File does not exist: /var/www/html/favicon.ico
+[Tue Aug 30 21:48:56 2011] [error] [client 127.0.0.1] File does not exist: /var/www/html/favicon.ico
+[Wed Aug 31 13:48:17 2011] [error] [client 127.0.0.1] Directory index forbidden by Options directive: /var/www/html/
+[Wed Aug 31 13:48:23 2011] [error] [client 127.0.0.1] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /var/www/html/insignia/_config.inc.php on line 14
+[Wed Aug 31 13:54:22 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: error in /var/www/html/insignia/login.php on line 77
+[Wed Aug 31 15:33:32 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: active in /var/www/html/insignia/login.php on line 16, referer: http://localhost/insignia/login.php
+[Wed Aug 31 15:33:32 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: error in /var/www/html/insignia/login.php on line 77, referer: http://localhost/insignia/login.php
+[Wed Aug 31 17:11:55 2011] [error] [client 127.0.0.1] script '/var/www/html/insignia/view.php' not found or unable to stat, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 17:12:00 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 15, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 17:12:00 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 21, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 17:12:00 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 22, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 17:12:00 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 23, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 17:12:00 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 24, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 17:12:06 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 15, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 17:12:06 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 21, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 17:12:06 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 22, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 17:12:06 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 23, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 17:12:06 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 24, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 21:53:19 2011] [error] [client 127.0.0.1] (13)Permission denied: access to /insignia/tiny_mce/tiny_mce.js denied, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 21:53:19 2011] [error] [client 127.0.0.1] (13)Permission denied: access to /insignia/tiny_mce/tiny_mce.js denied, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 21:54:14 2011] [error] [client 127.0.0.1] (13)Permission denied: access to /insignia/tiny_mce/tiny_mce.js denied, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 21:54:15 2011] [error] [client 127.0.0.1] (13)Permission denied: access to /insignia/tiny_mce/tiny_mce.js denied, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 21:55:58 2011] [error] [client 127.0.0.1] (13)Permission denied: access to /insignia/tiny_mce/tiny_mce.js denied
+[Wed Aug 31 21:56:23 2011] [error] [client 127.0.0.1] (13)Permission denied: access to /insignia/tiny_mce/index.php denied
+[Wed Aug 31 21:56:23 2011] [error] [client 127.0.0.1] (13)Permission denied: access to /insignia/tiny_mce/index.html denied
+[Wed Aug 31 21:56:23 2011] [error] [client 127.0.0.1] (13)Permission denied: access to /insignia/tiny_mce/index.html.var denied
+[Wed Aug 31 21:56:28 2011] [error] [client 127.0.0.1] (13)Permission denied: access to /insignia/tiny_mce/index.php denied
+[Wed Aug 31 21:56:28 2011] [error] [client 127.0.0.1] (13)Permission denied: access to /insignia/tiny_mce/index.html denied
+[Wed Aug 31 21:56:28 2011] [error] [client 127.0.0.1] (13)Permission denied: access to /insignia/tiny_mce/index.html.var denied
+[Wed Aug 31 21:59:40 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: error in /var/www/html/insignia/login.php on line 77
+[Wed Aug 31 21:59:44 2011] [error] [client 127.0.0.1] File does not exist: /var/www/html/insignia/tiny_mce/themes/basic, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:42:02 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 15, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:42:02 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 21, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:42:02 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 22, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:42:02 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 23, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:42:02 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 24, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:43:16 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 15, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:43:16 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 21, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:43:16 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 22, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:43:16 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 23, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:43:16 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 24, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:44:12 2011] [error] [client 127.0.0.1] PHP Fatal error:  Cannot use [] for reading in /var/www/html/insignia/add.php on line 25, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:44:44 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 15, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:44:44 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 21, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:44:44 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 22, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:44:44 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 23, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:44:44 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 24, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:45:13 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 15, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:45:13 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 21, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:45:13 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 22, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:45:13 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 23, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:45:13 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 24, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:45:13 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: GET in /var/www/html/insignia/add.php on line 26, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:45:24 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 15, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:45:24 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 21, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:45:24 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 22, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:45:24 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 23, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:45:24 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 24, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:45:28 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 15
+[Wed Aug 31 22:45:28 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 21
+[Wed Aug 31 22:45:28 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 22
+[Wed Aug 31 22:45:28 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 23
+[Wed Aug 31 22:45:28 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 24
+[Wed Aug 31 22:46:00 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 15
+[Wed Aug 31 22:46:00 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 21
+[Wed Aug 31 22:46:00 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 22
+[Wed Aug 31 22:46:00 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 23
+[Wed Aug 31 22:46:00 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 24
+[Wed Aug 31 22:46:21 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 15
+[Wed Aug 31 22:46:21 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 21
+[Wed Aug 31 22:46:21 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 22
+[Wed Aug 31 22:46:21 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 23
+[Wed Aug 31 22:46:21 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 24
+[Wed Aug 31 22:47:09 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 15, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:47:09 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 21, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:47:09 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 22, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:47:09 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 23, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:47:09 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 24, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:48:04 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 15, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:48:04 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 21, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:48:04 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 22, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:48:04 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 23, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 22:48:04 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 24, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 23:48:15 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 15, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 23:49:19 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 15, referer: http://localhost/insignia/materiales.php
+[Wed Aug 31 23:51:18 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 15, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 00:53:19 2011] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected ')', expecting '&' or T_VARIABLE in /var/www/html/insignia/add.php on line 5, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 00:57:10 2011] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /var/www/html/insignia/add.php on line 13, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 00:59:59 2011] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected T_SL in /var/www/html/insignia/add.php on line 12, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:01:22 2011] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /var/www/html/insignia/add.php on line 13, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:06:05 2011] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /var/www/html/insignia/add.php on line 25, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:07:55 2011] [error] [client 127.0.0.1] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /var/www/html/insignia/add.php on line 9, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:07:55 2011] [error] [client 127.0.0.1] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 10, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:07:55 2011] [error] [client 127.0.0.1] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 11, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:07:55 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant name - assumed 'name' in /var/www/html/insignia/add.php on line 13, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:07:55 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant size - assumed 'size' in /var/www/html/insignia/add.php on line 14, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:07:55 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant type - assumed 'type' in /var/www/html/insignia/add.php on line 15, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:07:55 2011] [error] [client 127.0.0.1] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /var/www/html/insignia/add.php on line 9, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:07:55 2011] [error] [client 127.0.0.1] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 10, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:07:55 2011] [error] [client 127.0.0.1] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 11, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:07:55 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant name - assumed 'name' in /var/www/html/insignia/add.php on line 13, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:07:55 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant size - assumed 'size' in /var/www/html/insignia/add.php on line 14, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:07:55 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant type - assumed 'type' in /var/www/html/insignia/add.php on line 15, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:07:55 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: title in /var/www/html/insignia/add.php on line 24, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:07:55 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: description in /var/www/html/insignia/add.php on line 25, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:07:55 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 38, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:08:49 2011] [error] [client 127.0.0.1] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /var/www/html/insignia/add.php on line 9, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:08:49 2011] [error] [client 127.0.0.1] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 10, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:08:49 2011] [error] [client 127.0.0.1] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 11, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:08:49 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant name - assumed 'name' in /var/www/html/insignia/add.php on line 13, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:08:49 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant size - assumed 'size' in /var/www/html/insignia/add.php on line 14, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:08:49 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant type - assumed 'type' in /var/www/html/insignia/add.php on line 15, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:08:49 2011] [error] [client 127.0.0.1] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /var/www/html/insignia/add.php on line 9, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:08:49 2011] [error] [client 127.0.0.1] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 10, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:08:49 2011] [error] [client 127.0.0.1] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 11, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:08:49 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant name - assumed 'name' in /var/www/html/insignia/add.php on line 13, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:08:49 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant size - assumed 'size' in /var/www/html/insignia/add.php on line 14, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:08:49 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant type - assumed 'type' in /var/www/html/insignia/add.php on line 15, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:08:49 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: title in /var/www/html/insignia/add.php on line 24, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:08:49 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: description in /var/www/html/insignia/add.php on line 25, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:08:49 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 38, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:14:39 2011] [error] [client 127.0.0.1] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /var/www/html/insignia/add.php on line 9, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:14:39 2011] [error] [client 127.0.0.1] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 10, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:14:39 2011] [error] [client 127.0.0.1] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 11, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:14:39 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant name - assumed 'name' in /var/www/html/insignia/add.php on line 13, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:14:39 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant size - assumed 'size' in /var/www/html/insignia/add.php on line 14, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:14:39 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant type - assumed 'type' in /var/www/html/insignia/add.php on line 15, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:14:39 2011] [error] [client 127.0.0.1] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /var/www/html/insignia/add.php on line 9, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:14:39 2011] [error] [client 127.0.0.1] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 10, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:14:39 2011] [error] [client 127.0.0.1] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 11, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:14:39 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant name - assumed 'name' in /var/www/html/insignia/add.php on line 13, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:14:39 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant size - assumed 'size' in /var/www/html/insignia/add.php on line 14, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:14:39 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant type - assumed 'type' in /var/www/html/insignia/add.php on line 15, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:14:39 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 38, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:15:39 2011] [error] [client 127.0.0.1] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /var/www/html/insignia/add.php on line 9, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:15:39 2011] [error] [client 127.0.0.1] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 10, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:15:39 2011] [error] [client 127.0.0.1] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 11, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:15:39 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant name - assumed 'name' in /var/www/html/insignia/add.php on line 13, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:15:39 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant size - assumed 'size' in /var/www/html/insignia/add.php on line 14, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:15:39 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant type - assumed 'type' in /var/www/html/insignia/add.php on line 15, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:15:39 2011] [error] [client 127.0.0.1] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /var/www/html/insignia/add.php on line 9, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:15:39 2011] [error] [client 127.0.0.1] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 10, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:15:39 2011] [error] [client 127.0.0.1] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 11, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:15:39 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant name - assumed 'name' in /var/www/html/insignia/add.php on line 13, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:15:39 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant size - assumed 'size' in /var/www/html/insignia/add.php on line 14, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:15:39 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant type - assumed 'type' in /var/www/html/insignia/add.php on line 15, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:15:39 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 39, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:15:56 2011] [error] [client 127.0.0.1] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /var/www/html/insignia/add.php on line 9, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:15:56 2011] [error] [client 127.0.0.1] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 10, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:15:56 2011] [error] [client 127.0.0.1] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 11, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:15:56 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant name - assumed 'name' in /var/www/html/insignia/add.php on line 13, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:15:56 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant size - assumed 'size' in /var/www/html/insignia/add.php on line 14, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:15:56 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant type - assumed 'type' in /var/www/html/insignia/add.php on line 15, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:15:56 2011] [error] [client 127.0.0.1] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /var/www/html/insignia/add.php on line 9, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:15:56 2011] [error] [client 127.0.0.1] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 10, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:15:56 2011] [error] [client 127.0.0.1] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 11, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:15:56 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant name - assumed 'name' in /var/www/html/insignia/add.php on line 13, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:15:56 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant size - assumed 'size' in /var/www/html/insignia/add.php on line 14, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:15:56 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant type - assumed 'type' in /var/www/html/insignia/add.php on line 15, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:15:56 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 39, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:16:37 2011] [error] [client 127.0.0.1] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /var/www/html/insignia/add.php on line 9, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:16:37 2011] [error] [client 127.0.0.1] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 10, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:16:37 2011] [error] [client 127.0.0.1] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 12, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:16:37 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant name - assumed 'name' in /var/www/html/insignia/add.php on line 14, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:16:37 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant size - assumed 'size' in /var/www/html/insignia/add.php on line 15, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:16:37 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant type - assumed 'type' in /var/www/html/insignia/add.php on line 16, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:16:37 2011] [error] [client 127.0.0.1] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /var/www/html/insignia/add.php on line 9, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:16:37 2011] [error] [client 127.0.0.1] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 10, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:16:37 2011] [error] [client 127.0.0.1] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 12, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:16:37 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant name - assumed 'name' in /var/www/html/insignia/add.php on line 14, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:16:37 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant size - assumed 'size' in /var/www/html/insignia/add.php on line 15, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:16:37 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant type - assumed 'type' in /var/www/html/insignia/add.php on line 16, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:16:37 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 39, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:16:49 2011] [error] [client 127.0.0.1] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /var/www/html/insignia/add.php on line 9, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:16:49 2011] [error] [client 127.0.0.1] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 10, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:16:49 2011] [error] [client 127.0.0.1] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 12, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:16:49 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant name - assumed 'name' in /var/www/html/insignia/add.php on line 14, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:16:49 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant size - assumed 'size' in /var/www/html/insignia/add.php on line 15, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:16:49 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant type - assumed 'type' in /var/www/html/insignia/add.php on line 16, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:16:49 2011] [error] [client 127.0.0.1] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /var/www/html/insignia/add.php on line 9, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:16:49 2011] [error] [client 127.0.0.1] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 10, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:16:49 2011] [error] [client 127.0.0.1] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 12, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:16:49 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant name - assumed 'name' in /var/www/html/insignia/add.php on line 14, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:16:49 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant size - assumed 'size' in /var/www/html/insignia/add.php on line 15, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:16:49 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant type - assumed 'type' in /var/www/html/insignia/add.php on line 16, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:16:49 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 39, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:17:14 2011] [error] [client 127.0.0.1] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /var/www/html/insignia/add.php on line 9, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:17:14 2011] [error] [client 127.0.0.1] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 10, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:17:14 2011] [error] [client 127.0.0.1] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 12, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:17:14 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant name - assumed 'name' in /var/www/html/insignia/add.php on line 14, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:17:14 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant size - assumed 'size' in /var/www/html/insignia/add.php on line 15, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:17:14 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant type - assumed 'type' in /var/www/html/insignia/add.php on line 16, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:17:14 2011] [error] [client 127.0.0.1] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /var/www/html/insignia/add.php on line 9, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:17:14 2011] [error] [client 127.0.0.1] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 10, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:17:14 2011] [error] [client 127.0.0.1] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 12, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:17:14 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant name - assumed 'name' in /var/www/html/insignia/add.php on line 14, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:17:14 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant size - assumed 'size' in /var/www/html/insignia/add.php on line 15, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:17:14 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant type - assumed 'type' in /var/www/html/insignia/add.php on line 16, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:17:14 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 39, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:17:44 2011] [error] [client 127.0.0.1] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /var/www/html/insignia/add.php on line 9, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:17:44 2011] [error] [client 127.0.0.1] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 10, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:17:44 2011] [error] [client 127.0.0.1] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 13, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:17:44 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant name - assumed 'name' in /var/www/html/insignia/add.php on line 15, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:17:44 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant size - assumed 'size' in /var/www/html/insignia/add.php on line 16, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:17:44 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant type - assumed 'type' in /var/www/html/insignia/add.php on line 17, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:17:44 2011] [error] [client 127.0.0.1] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /var/www/html/insignia/add.php on line 9, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:17:44 2011] [error] [client 127.0.0.1] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 10, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:17:44 2011] [error] [client 127.0.0.1] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 13, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:17:44 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant name - assumed 'name' in /var/www/html/insignia/add.php on line 15, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:17:44 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant size - assumed 'size' in /var/www/html/insignia/add.php on line 16, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:17:44 2011] [error] [client 127.0.0.1] PHP Notice:  Use of undefined constant type - assumed 'type' in /var/www/html/insignia/add.php on line 17, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:17:44 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 40, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:19:16 2011] [error] [client 127.0.0.1] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /var/www/html/insignia/add.php on line 9, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:19:16 2011] [error] [client 127.0.0.1] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 10, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:19:16 2011] [error] [client 127.0.0.1] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 13, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:19:16 2011] [error] [client 127.0.0.1] PHP Warning:  fopen() expects at least 2 parameters, 1 given in /var/www/html/insignia/add.php on line 9, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:19:16 2011] [error] [client 127.0.0.1] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 10, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:19:16 2011] [error] [client 127.0.0.1] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /var/www/html/insignia/add.php on line 13, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:19:16 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 40, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:21:00 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 38, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:25:49 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 38, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 01:26:09 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: file in /var/www/html/insignia/add.php on line 38, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 10:06:26 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: embedcode in /var/www/html/insignia/add.php on line 34, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 10:08:37 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: embedcode in /var/www/html/insignia/add.php on line 34, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 10:58:36 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: fullsize_img in /var/www/html/insignia/add.php on line 43, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 12:31:35 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: name in /var/www/html/insignia/materiales.php on line 38
+[Thu Sep 01 12:31:35 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: name in /var/www/html/insignia/materiales.php on line 38
+[Thu Sep 01 12:31:35 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: name in /var/www/html/insignia/materiales.php on line 38
+[Thu Sep 01 12:33:12 2011] [error] [client 127.0.0.1] script '/var/www/html/insignia/view.php' not found or unable to stat, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 12:41:18 2011] [error] [client 127.0.0.1] script '/var/www/html/insignia/view.php' not found or unable to stat, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 12:50:22 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: error in /var/www/html/insignia/login.php on line 77, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 12:50:41 2011] [error] [client 127.0.0.1] File does not exist: /var/www/html/insignia/materiales
+[Thu Sep 01 12:50:44 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: login_user in /var/www/html/insignia/lock.php on line 4
+[Thu Sep 01 12:50:44 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: error in /var/www/html/insignia/login.php on line 77
+[Thu Sep 01 13:20:43 2011] [error] [client 127.0.0.1] script '/var/www/html/insignia/view.php' not found or unable to stat, referer: http://localhost/insignia/portafolio.php
+[Thu Sep 01 13:20:44 2011] [error] [client 127.0.0.1] script '/var/www/html/insignia/view.php' not found or unable to stat, referer: http://localhost/insignia/portafolio.php
+[Thu Sep 01 13:22:11 2011] [error] [client 127.0.0.1] script '/var/www/html/insignia/view.php' not found or unable to stat, referer: http://localhost/insignia/portafolio.php
+[Thu Sep 01 13:22:11 2011] [error] [client 127.0.0.1] script '/var/www/html/insignia/view.php' not found or unable to stat, referer: http://localhost/insignia/portafolio.php
+[Thu Sep 01 13:22:46 2011] [error] [client 127.0.0.1] script '/var/www/html/insignia/view.php' not found or unable to stat, referer: http://localhost/insignia/portafolio.php
+[Thu Sep 01 13:22:47 2011] [error] [client 127.0.0.1] script '/var/www/html/insignia/view.php' not found or unable to stat, referer: http://localhost/insignia/portafolio.php
+[Thu Sep 01 13:23:44 2011] [error] [client 127.0.0.1] script '/var/www/html/insignia/view.php' not found or unable to stat, referer: http://localhost/insignia/portafolio.php
+[Thu Sep 01 13:23:45 2011] [error] [client 127.0.0.1] script '/var/www/html/insignia/view.php' not found or unable to stat, referer: http://localhost/insignia/portafolio.php
+[Thu Sep 01 13:24:02 2011] [error] [client 127.0.0.1] script '/var/www/html/insignia/view.php' not found or unable to stat, referer: http://localhost/insignia/portafolio.php
+[Thu Sep 01 13:24:03 2011] [error] [client 127.0.0.1] script '/var/www/html/insignia/view.php' not found or unable to stat, referer: http://localhost/insignia/portafolio.php
+[Thu Sep 01 13:24:07 2011] [error] [client 127.0.0.1] script '/var/www/html/insignia/view.php' not found or unable to stat, referer: http://localhost/insignia/portafolio.php
+[Thu Sep 01 13:24:08 2011] [error] [client 127.0.0.1] script '/var/www/html/insignia/view.php' not found or unable to stat, referer: http://localhost/insignia/portafolio.php
+[Thu Sep 01 13:25:10 2011] [error] [client 127.0.0.1] script '/var/www/html/insignia/view.php' not found or unable to stat, referer: http://localhost/insignia/portafolio.php
+[Thu Sep 01 13:25:11 2011] [error] [client 127.0.0.1] script '/var/www/html/insignia/view.php' not found or unable to stat, referer: http://localhost/insignia/portafolio.php
+[Thu Sep 01 13:25:20 2011] [error] [client 127.0.0.1] script '/var/www/html/insignia/view.php' not found or unable to stat, referer: http://localhost/insignia/portafolio.php
+[Thu Sep 01 13:25:20 2011] [error] [client 127.0.0.1] script '/var/www/html/insignia/view.php' not found or unable to stat, referer: http://localhost/insignia/portafolio.php
+[Thu Sep 01 13:29:27 2011] [error] [client 127.0.0.1] script '/var/www/html/insignia/view.php' not found or unable to stat, referer: http://localhost/insignia/portafolio.php
+[Thu Sep 01 13:29:27 2011] [error] [client 127.0.0.1] script '/var/www/html/insignia/view.php' not found or unable to stat, referer: http://localhost/insignia/portafolio.php
+[Thu Sep 01 13:29:41 2011] [error] [client 127.0.0.1] script '/var/www/html/insignia/view.php' not found or unable to stat
+[Thu Sep 01 13:31:11 2011] [error] [client 127.0.0.1] script '/var/www/html/insignia/view.php' not found or unable to stat, referer: http://localhost/insignia/portafolio.php
+[Thu Sep 01 13:31:12 2011] [error] [client 127.0.0.1] script '/var/www/html/insignia/view.php' not found or unable to stat, referer: http://localhost/insignia/portafolio.php
+[Thu Sep 01 13:59:18 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: login_user in /var/www/html/insignia/lock.php on line 4
+[Thu Sep 01 13:59:18 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: error in /var/www/html/insignia/login.php on line 77
+[Thu Sep 01 13:59:25 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: active in /var/www/html/insignia/login.php on line 16, referer: http://localhost/insignia/login.php
+[Thu Sep 01 13:59:25 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: error in /var/www/html/insignia/login.php on line 77, referer: http://localhost/insignia/login.php
+[Thu Sep 01 14:23:52 2011] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected '?' in /var/www/html/insignia/portafolio.php on line 54
+[Thu Sep 01 14:29:40 2011] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /var/www/html/insignia/portafolio.php on line 78
+[Thu Sep 01 14:29:53 2011] [error] [client 127.0.0.1] PHP Warning:  mysql_result() expects parameter 1 to be resource, string given in /var/www/html/insignia/portafolio.php on line 76
+[Thu Sep 01 14:30:16 2011] [error] [client 127.0.0.1] PHP Warning:  mysql_result() expects at least 2 parameters, 1 given in /var/www/html/insignia/portafolio.php on line 76
+[Thu Sep 01 14:30:36 2011] [error] [client 127.0.0.1] PHP Warning:  mysql_result() expects at least 2 parameters, 1 given in /var/www/html/insignia/portafolio.php on line 76
+[Thu Sep 01 14:43:46 2011] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected T_NS_SEPARATOR in /var/www/html/insignia/portafolio.php on line 79
+[Thu Sep 01 14:48:58 2011] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected T_VARIABLE in /var/www/html/insignia/portafolio.php on line 79
+[Thu Sep 01 14:54:42 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: diff in /var/www/html/insignia/portafolio.php on line 87
+[Thu Sep 01 14:55:07 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: diff in /var/www/html/insignia/portafolio.php on line 88
+[Thu Sep 01 15:26:57 2011] [error] [client 127.0.0.1] script '/var/www/html/insignia/\\"view.php' not found or unable to stat, referer: http://localhost/insignia/portafolio.php?page=1
+[Thu Sep 01 15:26:57 2011] [error] [client 127.0.0.1] script '/var/www/html/insignia/\\"view.php' not found or unable to stat, referer: http://localhost/insignia/portafolio.php?page=1
+[Thu Sep 01 15:27:35 2011] [error] [client 127.0.0.1] script '/var/www/html/insignia/\\"view.php' not found or unable to stat, referer: http://localhost/insignia/portafolio.php?page=1
+[Thu Sep 01 15:27:36 2011] [error] [client 127.0.0.1] script '/var/www/html/insignia/\\"view.php' not found or unable to stat, referer: http://localhost/insignia/portafolio.php?page=1
+[Thu Sep 01 15:27:47 2011] [error] [client 127.0.0.1] script '/var/www/html/insignia/\\"view.php' not found or unable to stat, referer: http://localhost/insignia/portafolio.php?page=1
+[Thu Sep 01 15:27:47 2011] [error] [client 127.0.0.1] script '/var/www/html/insignia/\\"view.php' not found or unable to stat, referer: http://localhost/insignia/portafolio.php?page=1
+[Thu Sep 01 16:31:58 2011] [error] [client 127.0.0.1] File does not exist: /var/www/html/favicon.ico
+[Thu Sep 01 16:32:02 2011] [error] [client 127.0.0.1] File does not exist: /var/www/html/favicon.ico
+[Thu Sep 01 16:35:02 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: error in /var/www/html/insignia/login.php on line 77
+[Thu Sep 01 16:35:02 2011] [error] [client 127.0.0.1] File does not exist: /var/www/html/favicon.ico
+[Thu Sep 01 18:28:59 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: active in /var/www/html/insignia/login.php on line 16, referer: http://localhost/insignia/login.php
+[Thu Sep 01 18:28:59 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: error in /var/www/html/insignia/login.php on line 77, referer: http://localhost/insignia/login.php
+[Thu Sep 01 18:29:00 2011] [error] [client 127.0.0.1] File does not exist: /var/www/html/favicon.ico
+[Thu Sep 01 18:30:16 2011] [error] [client 127.0.0.1] File does not exist: /var/www/html/favicon.ico
+[Thu Sep 01 18:30:29 2011] [error] [client 127.0.0.1] File does not exist: /var/www/html/favicon.ico
+[Thu Sep 01 18:30:43 2011] [error] [client 127.0.0.1] File does not exist: /var/www/html/favicon.ico
+[Thu Sep 01 18:31:39 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: fullsize_img in /var/www/html/insignia/add.php on line 43, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 18:31:39 2011] [error] [client 127.0.0.1] File does not exist: /var/www/html/favicon.ico
+[Thu Sep 01 18:31:45 2011] [error] [client 127.0.0.1] File does not exist: /var/www/html/favicon.ico
+[Thu Sep 01 18:32:01 2011] [error] [client 127.0.0.1] File does not exist: /var/www/html/favicon.ico
+[Thu Sep 01 18:32:06 2011] [error] [client 127.0.0.1] File does not exist: /var/www/html/favicon.ico
+[Thu Sep 01 18:32:14 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: error in /var/www/html/insignia/login.php on line 77, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 18:32:14 2011] [error] [client 127.0.0.1] File does not exist: /var/www/html/favicon.ico
+[Thu Sep 01 18:41:01 2011] [error] [client 127.0.0.1] File does not exist: /var/www/html/favicon.ico
+[Thu Sep 01 18:42:28 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: active in /var/www/html/insignia/login.php on line 16, referer: http://localhost/insignia/login.php
+[Thu Sep 01 18:42:28 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: error in /var/www/html/insignia/login.php on line 77, referer: http://localhost/insignia/login.php
+[Thu Sep 01 18:42:29 2011] [error] [client 127.0.0.1] File does not exist: /var/www/html/favicon.ico
+[Thu Sep 01 18:43:26 2011] [error] [client 127.0.0.1] File does not exist: /var/www/html/favicon.ico
+[Thu Sep 01 18:43:28 2011] [error] [client 127.0.0.1] File does not exist: /var/www/html/favicon.ico
+[Thu Sep 01 18:43:35 2011] [error] [client 127.0.0.1] File does not exist: /var/www/html/favicon.ico
+[Thu Sep 01 18:44:36 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined index: fullsize_img in /var/www/html/insignia/add.php on line 43, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 18:44:36 2011] [error] [client 127.0.0.1] File does not exist: /var/www/html/favicon.ico
+[Thu Sep 01 18:44:39 2011] [error] [client 127.0.0.1] File does not exist: /var/www/html/favicon.ico
+[Thu Sep 01 18:44:45 2011] [error] [client 127.0.0.1] File does not exist: /var/www/html/favicon.ico
+[Thu Sep 01 18:45:23 2011] [error] [client 127.0.0.1] PHP Notice:  Undefined variable: error in /var/www/html/insignia/login.php on line 77, referer: http://localhost/insignia/materiales.php
+[Thu Sep 01 18:45:23 2011] [error] [client 127.0.0.1] File does not exist: /var/www/html/favicon.ico
+[Sun Sep 04 10:11:07 2011] [warn] child process 15258 still did not exit, sending a SIGTERM
+[Sun Sep 04 10:11:07 2011] [warn] child process 15259 still did not exit, sending a SIGTERM
+[Sun Sep 04 10:11:07 2011] [warn] child process 15260 still did not exit, sending a SIGTERM
+[Sun Sep 04 10:11:07 2011] [warn] child process 15261 still did not exit, sending a SIGTERM
+[Sun Sep 04 10:11:07 2011] [warn] child process 15262 still did not exit, sending a SIGTERM
+[Sun Sep 04 10:11:07 2011] [warn] child process 15263 still did not exit, sending a SIGTERM
+[Sun Sep 04 10:11:07 2011] [warn] child process 15264 still did not exit, sending a SIGTERM
+[Sun Sep 04 10:11:07 2011] [warn] child process 15265 still did not exit, sending a SIGTERM
+[Sun Sep 04 10:11:07 2011] [warn] child process 736 still did not exit, sending a SIGTERM
+[Sun Sep 04 10:11:08 2011] [notice] SIGHUP received.  Attempting to restart
