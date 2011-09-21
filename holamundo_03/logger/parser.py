@@ -1,6 +1,7 @@
 import re
 
-regex = re.compile('^([\\d.]+) (\\S+) (\\S+) \\[([\\w:/]+\\s[+\\-]\\d{4})\\] \"(.+?)\" (\\d{3}) (\\d+) \"([^\"]+)\" \"([^\"]+)\"')
+#regex = re.compile(r'\[(.*?)\]')
+regex = re.compile(r'^\[(.*?)\]\s\[(.*?)\]\s(.*)')
 
 def parsear(linea):
     m = regex.match(linea)
