@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>Un parser en Django</title>
+<style>
+body{
+    width: 960px;
+    margin: 0 auto;
+}
+
+table, td, th {
+    border: 1px solid gray;
+}
+
+.notice {
+    color:green;
+}
+
+.error {
+    color:red;
+}
+
+.warn {
+    color: blue;
+}
+</style>
+    
+</head>
+
+<body>
+
+<h1>Logger usando un template de html</h1>
+
+<table>
+    <tr>
+        <th>Fecha</th>
+        <th>Tipo de error</th>
+        <th>Contenido del error</th>
+    </tr>
+    {% for x,y,z in log %}
+    <tr>
+        <td>{{ x }}</td>
+        <td class="{{ y }}">{{ y }}</td>
+        <td>{{ z }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+</body>
+</html>
