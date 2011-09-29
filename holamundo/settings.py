@@ -1,9 +1,9 @@
 from os.path import join as joinpath, dirname
 # Django settings for holamundo project.
 
-DEBUG = True
+#DEBUG = True
 #TEMPLATE_DEBUG = DEBUG
-TEMPLATE_DEBUG = True
+#TEMPLATE_DEBUG = True
 
 ADMINS = (
      ('Juan Camaney', 'your_email@example.com'),

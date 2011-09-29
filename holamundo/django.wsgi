@@ -1,7 +1,10 @@
 import os
 import sys
 
-path = '/opt/holamundo'
+path = '/opt/djangoapps'
+if path not in sys.path:
+    sys.path.append(path)
+path = '/opt/djangoapps/holamundo'
 if path not in sys.path:
     sys.path.append(path)
 
